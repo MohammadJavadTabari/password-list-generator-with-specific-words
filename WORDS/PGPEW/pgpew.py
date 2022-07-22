@@ -1,0 +1,1 @@
+# permutations(p[, r]) => r-length tuples, all possible orderings, no repeated elements
