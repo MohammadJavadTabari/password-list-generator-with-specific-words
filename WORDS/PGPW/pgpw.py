@@ -13,7 +13,7 @@ pass_length = input('What is the range length of the password? example 6-12:')
 pass_length_range = pass_length.split('-')
 #
 # open the pass-list file after the loops to avoide of repetitive action => reduce cpu usage
-with open('WORDS\PGPEW\pgpew_pass_list.txt', 'w') as f:
+with open('WORDS\PGPW\pgpw_pass_list.txt', 'w') as f:
     for i in range(int(pass_length_range[0]), int(pass_length_range[1]) + 1):
 #        
 # get possible passwords by using itter.product function 
