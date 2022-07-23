@@ -1,0 +1,1 @@
+# combinations_with_replacement(p, r) => r-length tuples, in sorted order, with repeated elements
