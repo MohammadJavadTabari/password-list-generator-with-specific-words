@@ -10,7 +10,7 @@ words = input("type your words separated with space:")
 word_list = words.split(' ')
 #
 # Getting the possible password range from the user
-pass_length = input('What is the range length of the password? example 6-12:')
+pass_length = input('What is the range le5ngth of the password? example 6-12:')
 pass_length_range = pass_length.split('-')
 #
 # open the pass-list file after the loops to avoide of repetitive action => reduce cpu usage
@@ -22,7 +22,7 @@ with open('WORDS\PGCW\pgcw_pass_list.txt', 'w') as f:
 #
 # iterate over each pass-list built by 'combination' function
         for j in range(len(prob_pass_list)):
-#
+#[0] => ('sepehr', '@', '1')
 # building our string password by joining probable words in [j] index
             prob_pass_string = ''.join(prob_pass_list[j])
 #

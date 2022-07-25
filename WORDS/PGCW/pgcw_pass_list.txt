@@ -1,13 +1,3 @@
-sepehr@ 
-sepehr1 
-sepehr2 
-sepehr3 
-@1 
-@2 
-@3 
-12 
-13 
-23 
 sepehr@1 
 sepehr@2 
 sepehr@3 
