@@ -53,4 +53,4 @@ def get_weight_of_data(data_list):
         data_per_wheight = [str(data_list[data_index])]
         data_wheight = input(f"assaign integer weight to '{data_list[data_index]}' : ")
         data_per_wheight = data_per_wheight * int(data_wheight)
-        word_list_with_wheight = word_list_with_wheight + data_per_wheight
+        data_list_with_wheight = data_list_with_wheight + data_per_wheight
