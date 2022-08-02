@@ -3,7 +3,7 @@
 # # => sample:combinations('ABCD', 2) => result: AB AC AD BC BD CD
 #
 # add necessaire library to our code
-import Services.pgcw_main_service as pgcwms
+import pgcw_main_service as pgcwms
 
 word_list = list(pgcwms.get_words_from_usr())
 
