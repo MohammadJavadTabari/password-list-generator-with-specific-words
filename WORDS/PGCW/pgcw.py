@@ -6,9 +6,9 @@
 import WORDS.main_Services.common_actions_service as cas
 import pgcw_service as pgcwms
 
-word_list = list(cas.get_words_from_usr())
 
-start, end = cas.get_pass_range_from_user()
-
-pgcwms.combinations_functions(file_path='WORDS\PGCW\pgcw_pass_list.txt',
- start_range=start, end_range=end, word_list=word_list)
+def start_calculation():
+    word_list = list(cas.get_words_from_usr())
+    start, end = cas.get_pass_range_from_user()
+    pgcwms.combinations_functions(file_path='WORDS\PGCW\pgcw_pass_list.txt',
+    start_range=start, end_range=end, word_list=word_list)

@@ -1,3 +1,4 @@
+from time import sleep
 # Get the possible password words from the user
 def get_words_from_usr():
     try:
@@ -12,6 +13,7 @@ def get_words_from_usr():
             type words separated with space
             """
             )
+        sleep(2)
         get_words_from_usr()
 
 # Getting the possible password range from the user
@@ -31,6 +33,7 @@ def get_pass_range_from_user():
             second number most be bigger than first number
             """
             )
+        sleep(2)
         get_pass_range_from_user()
     except:
         print(
@@ -42,6 +45,7 @@ def get_pass_range_from_user():
             dont type anything else
             """
             )
+        sleep(2)
         get_pass_range_from_user()
 
 
