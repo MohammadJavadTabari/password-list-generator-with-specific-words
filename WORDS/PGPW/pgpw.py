@@ -2,7 +2,10 @@
 # => sample: product('ABCD', repeat=2) => result: AA AB AC AD BA BB BC BD CA CB CC CD DA DB DC DD
 #
 # add necessaire library to our code
-import WORDS.main_Services.common_actions_service as cas
+import sys
+sys.path.append('WORDS\main_Services')
+
+import common_actions_service as cas
 import pgpw_service as pgpws
 
 def start_calculation():

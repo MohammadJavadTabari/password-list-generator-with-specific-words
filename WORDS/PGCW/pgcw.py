@@ -3,7 +3,10 @@
 # # => sample:combinations('ABCD', 2) => result: AB AC AD BC BD CD
 #
 # add necessaire library to our code
-import WORDS.main_Services.common_actions_service as cas
+import sys
+sys.path.append('WORDS\main_Services')
+
+import common_actions_service as cas
 import pgcw_service as pgcwms
 
 
